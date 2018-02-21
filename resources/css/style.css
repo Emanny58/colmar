@@ -40,7 +40,7 @@ header img {
 }
 
 .log1 {
-  color: gray;
+  color: hsl(200, 10%, 20%);
   font-weight: 600;
 }
 
@@ -66,4 +66,60 @@ header img {
 
 .top-bar-mobile {
   display: none;
+}
+
+
+/* Banner */
+
+.banner {
+  background-color: silver;
+  display: flex;
+  align-items: center;
+}
+
+.banner .image-container {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.banner img {
+  margin: 0;
+  width: 100%;
+}
+
+.motto {
+  height: 24rem;
+  width: 29%;
+  margin: auto auto auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.motto h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: hsl(200, 10%, 20%);
+  line-height: 1.2;
+}
+
+.motto p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: hsl(200, 10%, 20%);
+  line-height: 1.5;
+}
+
+.start-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: hsl(200, 10%, 20%);
+  font-size: 1.3rem;
+  border-radius: 0.1rem;
+}
+
+.start-btn span {
+  margin: 0.5rem auto;
 }
