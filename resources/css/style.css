@@ -1,0 +1,69 @@
+/* Universal */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* Header */
+header {
+  padding-left: 1.3rem;
+  padding-right: 1.5rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 80%;
+}
+
+.top-bar {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+.log1 {
+  color: gray;
+  font-weight: 600;
+}
+
+.log2 {
+  color: silver;
+}
+
+.top-bar .nav {
+  height: 100%;
+  display: flex;
+}
+
+.top-bar .nav li {
+  border-right: 1rem solid skyblue;
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.top-bar .nav li:last-child {
+  border-right: none;
+}
+
+.top-bar-mobile {
+  display: none;
+}
