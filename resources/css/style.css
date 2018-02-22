@@ -223,3 +223,64 @@ header img {
 .description span {
   color: dodgerblue;
 }
+
+
+/* learning */
+
+.learning {
+  background-color: hsl(200, 10%, 90%);
+  padding: 2rem 4.5rem;
+}
+
+.learning h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.bottom-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.course {
+  width: 30%;
+}
+
+.course.star {
+  margin: auto 2rem;
+}
+
+.course .image-container {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.course img {
+  width: 100%;
+}
+
+.info {
+  margin: 1rem 1rem 1.5rem 1rem;
+  line-height: 1.2;
+  color: hsl(200, 10%, 20%);
+}
+
+.info h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.info p {
+  margin-top: 0.5rem;
+}
