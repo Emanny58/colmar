@@ -154,7 +154,6 @@ header img {
   height: 30%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   color: hsl(200, 10%, 20%);
 }
 
@@ -198,7 +197,7 @@ header img {
   display: block;
 }
 
-.article img {
+.article img, .articlle img {
   width: 100%;
 }
 
@@ -230,12 +229,15 @@ header img {
 .learning {
   background-color: hsl(200, 10%, 90%);
   padding: 2rem 4.5rem;
+  margin-bottom: 2rem;
 }
 
-.learning h2 {
+.learning h2, .thesis h2 {
   font-size: 2rem;
+  font-weight: bold;
   margin-bottom: 2rem;
   text-align: center;
+  color: hsl(200, 10%, 20%);
 }
 
 .top-row {
@@ -283,4 +285,91 @@ header img {
 
 .info p {
   margin-top: 0.5rem;
+}
+
+/* Thesis  */
+
+.information {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainn {
+  margin: 2rem 1.5rem;
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mainn .image-container {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  background-color: silver;
+}
+
+.mainn img {
+  width: 10%;
+}
+
+.practice {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: hsl(200, 10%, 20%);
+}
+
+.practice h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+
+.articlez {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 40%;
+}
+
+.articlle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.articlle.grey {
+  border-bottom: none;
+  background-color: silver;
+}
+
+.articlle .image-container {
+  width: 35%;
+  margin: 1rem 1rem;
+  height: auto;
+  display: block;
+}
+
+.descriptionn {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.descriptionn h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color:  hsl(200, 10%, 20%);
+}
+
+.descriptionn p {
+  color: hsl(200, 10%, 20%);
+  margin-bottom: 0.5rem;
 }
