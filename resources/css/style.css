@@ -379,3 +379,20 @@ header img {
   margin-bottom: 0.5rem;
   line-height: 1.5;
 }
+
+/* Footer */
+
+footer {
+  border-top: 0.1rem solid silver;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  color: hsl(200, 10%, 20%);
+  font-size: 0.9rem;
+}
+
+.copy-right {
+  word-spacing: 1rem;
+}
