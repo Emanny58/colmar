@@ -57,7 +57,7 @@ header img {
   border-right: 1rem solid skyblue;
   display: flex;
   align-items: center;
-  color: gray;
+  color: hsl(200, 10%, 20%);
 }
 
 .top-bar .nav li:last-child {
@@ -79,6 +79,7 @@ header img {
 
 .banner .image-container {
   width: 60%;
+  display: block;
   margin: 2rem 1.5rem;
 }
 
@@ -122,4 +123,103 @@ header img {
 
 .start-btn span {
   margin: 0.5rem auto;
+}
+
+/* Information */
+
+.information {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  margin: 2rem 1.5rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main .image-container {
+  width: 100%;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.main img {
+  width: 100%;
+}
+
+.practice {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: hsl(200, 10%, 20%);
+}
+
+.practice h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.practice span {
+  font-size: 0.8rem;
+}
+
+.articles {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-left: 0.1rem solid silver;
+  width: 40%;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 0.2rem solid silver;
+}
+
+.article.grey {
+  border-bottom: none;
+  background-color: silver;
+}
+
+.article .image-container.first {
+  margin-top: 0;
+}
+
+.article .image-container {
+  width: 35%;
+  margin: 1rem 1rem;
+  height: auto;
+  display: block;
+}
+
+.article img {
+  width: 100%;
+}
+
+.description {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color:  hsl(200, 10%, 20%);
+}
+
+.description p {
+  color: hsl(200, 10%, 20%);
+  margin-bottom: 0.5rem;
+}
+.description span {
+  color: dodgerblue;
 }
