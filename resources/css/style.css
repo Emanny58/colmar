@@ -466,9 +466,6 @@ header img {
 
 .mainn .image-container {
   width: 100%;
-  height: auto;
-  margin-bottom: 1.5rem;
-  background-color: silver;
 }
 
 .practise {
@@ -530,6 +527,25 @@ header img {
   color: hsl(200, 10%, 20%);
   margin-bottom: 0.5rem;
   line-height: 1.5;
+}
+
+@media only screen and (max-width: 460px) {
+  .practise {
+    display: none;
+  }
+
+  .articlez {
+    display: none;
+  }
+
+  .thesis h2 {
+    margin-bottom: 1rem;
+  }
+
+  .mainn {
+    margin: 0 0 1.5rem 0;
+    width: 100%;
+  }
 }
 
 /* Footer */
