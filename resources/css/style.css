@@ -371,6 +371,10 @@ header img {
   justify-content: space-between;
 }
 
+.courses-mobile {
+  display: none;
+}
+
 .course {
   width: 30%;
 }
@@ -404,6 +408,40 @@ header img {
 .info p {
   margin-top: 0.5rem;
   line-height: 1.5;
+}
+
+@media only screen and (max-width: 460px) {
+  .learning {
+    background-color: white;
+    padding: 0 0.5rem 2rem 0.5rem;
+    margin-bottom: 2rem;
+    border-top: 0.02px solid silver;
+    border-bottom: 0.02px solid silver;
+  }
+
+  .learning h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+  }
+
+  .courses {
+    display: none;
+  }
+
+  .courses-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .class {
+    padding: 1rem 1rem 1.5rem 1rem;
+    background-color: silver;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: hsl(200, 10%, 20%);
+  }
 }
 
 /* Thesis  */
