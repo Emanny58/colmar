@@ -87,6 +87,7 @@ header img {
   background-color: silver;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .banner .image-container {
@@ -105,14 +106,13 @@ header img {
 .motto {
   height: 24rem;
   width: 40%;
-  margin: auto auto auto 0;
   display: flex;
   flex-direction: column;
 }
 
 .motto h1 {
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 2rem;
   color: hsl(200, 10%, 20%);
   line-height: 1.2;
@@ -120,6 +120,7 @@ header img {
 
 .motto p {
   font-size: 1.5rem;
+  font-weight: 600;
   margin-bottom: 2rem;
   color: hsl(200, 10%, 20%);
   line-height: 1.5;
@@ -155,7 +156,7 @@ header img {
   }
 
   .motto {
-    width: auto;
+    width: 90%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -164,6 +165,7 @@ header img {
 
   .motto h1 {
     font-size: 2rem;
+    font-weight: 900;
   }
 
   .motto p {
@@ -216,6 +218,10 @@ header img {
   margin-bottom: 1.5rem;
 }
 
+.practice p {
+  line-height: 1.4;
+}
+
 .practice span {
   font-size: 0.8rem;
   margin-top: 3rem;
@@ -224,7 +230,7 @@ header img {
 .articles {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-left: 0.1rem solid silver;
+  border-left: 0.01rem solid silver;
   width: 40%;
 }
 
@@ -232,7 +238,7 @@ header img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-bottom: 0.2rem solid silver;
+  border-bottom: 0.1rem solid silver;
 }
 
 .article.grey {
@@ -266,6 +272,7 @@ header img {
   flex-direction: column;
   justify-content: center;
   letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 .description h3 {
@@ -423,6 +430,7 @@ header img {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: 900;
+    line-height: 1.4;
   }
 
   .courses {
@@ -472,6 +480,7 @@ header img {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-top: 1.5rem;
   color: hsl(200, 10%, 20%);
 }
 
@@ -540,6 +549,8 @@ header img {
 
   .thesis h2 {
     margin-bottom: 1rem;
+    font-weight: 900;
+    line-height: 1.4;
   }
 
   .mainn {
